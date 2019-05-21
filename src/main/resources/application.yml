@@ -1,0 +1,9 @@
+logging:
+  path: logs/CcDev
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.224.11.167:3306/api_auto?useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
+    username: emqa
+    password: 123456
